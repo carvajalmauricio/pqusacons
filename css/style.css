@@ -362,6 +362,7 @@ a.button.scroll:hover {
 }
 #portfoliolist .portfolio {
 	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	width: 31.3%;
@@ -418,9 +419,9 @@ a.button.scroll:hover {
 	font-size: 20px;
 	text-transform:uppercase;
 }
-a.popup-with-zoom-anim img {
+/* a.popup-with-zoom-anim img {
 	
-}
+} */
 .img {
 	border: 1px solid #555;
 	display: inline-block;
