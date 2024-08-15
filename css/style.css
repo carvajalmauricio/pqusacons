@@ -127,7 +127,7 @@ body {
     display:block;
 }
 .nav-item a:hover {
-	background:#003166;
+	background:#72a2d4;
 	color: #FFFFFF;
 }
 .nav-mobile {
@@ -1125,11 +1125,11 @@ display:none;
 	.logo{
 		display: block;
 		float: right;
-		margin: -26px 10px 0 0;
+		margin: -16px 10px 0 0;
 	}
 	div.header {
 		position: relative;
-		background: #DE654E;
+		background: #004283;
 		padding: 4% 0;
 		height: 0px;
 	}
@@ -1146,7 +1146,7 @@ display:none;
 
 	.h_right{
 		width: 100%;
-		background: #CC533D;
+		background: #004283;
 		margin: 6px 0 10px;
 	}
 	a.button.scroll {
@@ -1165,7 +1165,7 @@ display:none;
 		border: 10px solid #fff;
 	}
 	.portfolio img:hover {
-		border: 10px solid #DB5941;
+		border: 10px solid #004283;
 	}
 	.tm-head-grid {
 		padding-top: 9px;
@@ -1405,7 +1405,7 @@ display:none;
 		border: 6px solid #fff;
 	}
 	.portfolio img:hover {
-		border: 6px solid #DB5941;
+		border: 6px solid #004283;
 	}
 	.top-social-icons li {
 		margin: 1.2em 0em;
