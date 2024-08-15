@@ -467,67 +467,69 @@ a.button.scroll:hover {
   height: 0;
 }
 /*---team-members--*/
-.team-members{
-	padding: 7% 0;
-	background: #2A80B9;
+.team-members {
+    padding: 7% 0;
+    background: #003166;
+    font-family: 'Noto Sans', sans-serif;
 }
-.tm-head{
-	text-align:center;
+
+.tm-head {
+    text-align: center;
+    margin-bottom: 50px;
 }
-.tm-head h3{
-	font-family: 'Noto Sans', sans-serif;
-	color: #fff;
-	font-size: 2.5em;
-	font-weight: 700;
-	text-align: center;
+
+.tm-head h3 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
 }
-.tm-head p{
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 1.4em;
-	padding: 0em 0;
-	color: #E4E4E4;
-	line-height: 1.5em;
-	text-align:center;
-	margin-bottom: 6%;
+
+.tm-head p {
+    font-size: 1.2em;
+    color: #e4e4e4;
+    margin-top: 10px;
 }
-.tm-head-grid img{
-	width: 90.6%;
-	cursor: pointer;
-}
-.tm-head-grid:hover {
-	background:  #0152a3;
-}
-.tm-head-grid {
-	width: 30.9%;
-	text-align: center;
-	float: left;
-	margin-right: 3.6%;
-	padding-top: 14px;
-	background: #fff;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-o-border-radius: 10px;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-}
+
 .tm-head-grids {
-	width: 82%;
-	margin: 0 8% 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-.tm-head-grid:nth-child(3){
-	margin-right:0;
+
+.tm-head-grid {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 45%;
+    max-width: 400px;
 }
-.tm-head-grid h4{
-	color: #333;
-	font-size: 1.2em;
-	font-weight: 400;
-	margin: 0.8em 0 0.2em 0;
+
+.tm-head-grid:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tm-head-grid h4 {
+    color: #0152a3;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tm-head-grid p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.clear {
+    clear: both;
 }
 
 /*---//team-members--*/
+
 /*----team-info----*/
 .team-info{
 	font-family: 'Droid Serif', serif;
