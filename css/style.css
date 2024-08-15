@@ -136,9 +136,9 @@ body {
 	position: absolute;
 	top: 12px;
 	left: 11px;
-	background: url(../images/nav_icon.png) 60% 60% no-repeat;
-	height:32px;
-	width: 32px;
+	background: url(../images/nav_icon.png) 70% 70% no-repeat;
+	height:35px;
+	width: 35px;
 }
 .nav-mobile {
     display:block;
@@ -160,7 +160,7 @@ body {
 	padding: 10px;
 	background: #0152a3;
 	text-transform: uppercase;
-	border-top: 1px ridge #CC722D;
+	border-top: 1px ridge #ffffff;
 	color: #FFF;
 	-webkit-transition: color .2s linear,background .2s linear;
 	-moz-transition: color .2s linear,background .2s linear;
@@ -473,9 +473,10 @@ a.button.scroll:hover {
     font-family: 'Noto Sans', sans-serif;
 }
 
+
 .tm-head {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .tm-head h3 {
@@ -1158,9 +1159,6 @@ display:none;
 		width: 89%;
 		margin: 0 5% 0;
 	}
-	.logos {
-		display: none;
-	}
 	.contact_form input[type="text"], .contact_form textarea {
 		padding: 16px 38px 16px 16px;
 		margin-bottom: -23px;
@@ -1197,13 +1195,15 @@ display:none;
 		width:95%;
 	}
 	div.header {
-		padding: 4% 2%;
+		padding-top: 10px;
+		padding-bottom: 50px;
+		background-color: #004283;
 	}
 	#services > div > div> img {
 		width: 66%;
 	}
-	.services h3, .portfoliO h3, .tm-head h3, .ex-head h3, .fun-head h3, .blog-head h3, .studio-head h3, .client-head h3, .pricing-head h3, .contact h3 {
-		font-size: 1.2em;
+	.services h3, .portfoliO h3, .tm-head h3, .ex-head h3, .blog-head h3, .studio-head h3, .client-head h3, .pricing-head h3, .contact h3 {
+		font-size: 1.0em;
 	}
 	.span_1_of_3 h4 a {
 		font-size: 1em;
@@ -1213,15 +1213,6 @@ display:none;
 	}
 	.text_p {
 		right: 19%;
-	}
-	.fun-head-grid img {
-		padding: 6px;
-	}
-	.fun-head-grid h4 {
-		font-size: 1.1em;
-	}
-	.fun-head-grid h5 {
-		font-size: 0.82355em;
 	}
 	.text-right h3 {
 		font-size: 0.82355em;
@@ -1233,51 +1224,46 @@ display:none;
 		width: 43%;
 	}
 	.blog-right {
-		width: 43%;
+		width: 45%;
 	}
-	.contact_form input[type="text"], .contact_form textarea {
-		padding: 10px 35px 10px 10px;
-		width: 86%;
-	}
-	.contact_form span label {
-		top: -13px;
-	}
-	.contact_form span label1 {
-		top: -110px;
-	}
-	.contact_form textarea {
-		height: 120px;
-	}
-	.form input[type="text"] {
-		font-size: 0.82355em;
-		width: 46%;
-		padding: 8px 8px 8px 45px;
-	}
-	.form input[type="submit"] {
-		font-size: 0.82355em;
-		padding: 10px 15px;
-	}
-	.form {
-		margin: 0 auto;
-	}
+
 	.bottom-social-icons {
 		width: 37%;
 	}
 	.span_1_of_3 p a {
-		padding: 8px 13px;
+		padding: 8px 10px;
 	}
 	.img {
 		padding: 3px 6px;
 		margin-top: 15px;
 	}
-	.contact_form input[type="submit"] {
-		padding: 10px 20px;
-		font-size: 0.8755em;
-	}
 	a.button.scroll {
-		top: 80%;
+		margin-top: 95%;
+		top: 10%;
 		left: 47%;
 		padding: 0;
+	}
+	.tm-head p {
+		margin-right: 9px;
+	} 
+	.tm-head-grid p {
+		padding: 0;
+		margin: 0;
+		color: #333;
+		font-size: 0.708em;
+		line-height: 1.15;
+	}
+	.tm-head-grid h4 {
+		font-size: 0.957em;
+	}
+	.team-members .wrap {
+		width: 106.9%;
+		margin: 0 0;
+	}
+	.logo {
+		padding-top: 0;
+		margin-inline-start: 85.6%;
+		max-width: 30px;
 	}
 }
 
