@@ -142,20 +142,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				window.scrollTo(0, 1);
 			}, 0);
 		});</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </head>
 
 <body>
 	<!-- sticky social  -->
 	<div class="sticky-social">
-        <a href="https://www.facebook.com/profile.php?id=100069295885706&mibextid=LQQJ4d" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/pqusaconstruction/" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@pq.usa.constructi" class="tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
-        <a href="mailto:pqusaconstruction@gmaiil.com" class="gmail" title="Gmail"><i class="far fa-envelope"></i></a>
-    </div>
+		<a href="https://www.facebook.com/profile.php?id=100069295885706&mibextid=LQQJ4d" class="facebook"
+			title="Facebook"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.instagram.com/pqusaconstruction/" class="instagram" title="Instagram"><i
+				class="fab fa-instagram"></i></a>
+		<a href="https://www.tiktok.com/@pq.usa.constructi" class="tiktok" title="TikTok"><i
+				class="fab fa-tiktok"></i></a>
+		<a href="mailto:pqusaconstruction@gmaiil.com" class="gmail" title="Gmail"><i class="far fa-envelope"></i></a>
+	</div>
 	<!-- //sticky social  -->
 	<!-- start slider -->
-	
+
 	<div class="slider_bg s7">
 		<video autoplay muted loop>
 			<source src="images/video.mp4" type="video/mp4">
@@ -355,24 +358,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="tm-head-grids">
 				<div class="tm-head-grid mission">
 					<h4>OUR MISSION</h4>
-					<p>Our mission as a construction company is to provide and satisfy the needs of our clients with the best construction service together with the most trained professionals and with all the tools to create a safe work.</p>
+					<p>Our mission as a construction company is to provide and satisfy the needs of our clients with the
+						best construction service together with the most trained professionals and with all the tools to
+						create a safe work.</p>
 				</div>
 				<div class="tm-head-grid vision">
 					<h4>OUR VISION</h4>
-					<p>To become one of the leading companies in the construction industry recognized for its capacity, quality and compliance with each and every one of the jobs entrusted to us. In this way, we will obtain recognition from the American community and in the long term worldwide.</p>
+					<p>To become one of the leading companies in the construction industry recognized for its capacity,
+						quality and compliance with each and every one of the jobs entrusted to us. In this way, we will
+						obtain recognition from the American community and in the long term worldwide.</p>
 				</div>
 				<div class="clear"></div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!----//End-team-members---->
 	<!----start-team-members---->
 	<div class="experience">
 		<div class="wrap">
 			<div class="ex-head">
 				<h3>OUR EXPERIENCE</h3>
-				<p>"Years of experience, coupled with a commitment to customer satisfaction, make us a trusted partner in bringing visions to life."</p>
+				<p>"Years of experience, coupled with a commitment to customer satisfaction, make us a trusted partner
+					in bringing visions to life."</p>
 			</div>
 			<div class="prog">
 				<div class="text">
@@ -416,17 +424,68 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!----//End-team-members---->
-
 	<!---- strat-studio---->
 	<div class="studio s4" id="studio">
 		<div class="wrap">
 			<div class="studio-head">
-				<h3>STUDIO</h3>
-				<p>Proin iaculis purus consequat sem cure.</p>
+				<h3>Discover the Value of Our Service</h3>
+				<div class="phone-container">
+					<div class="phone-screen">
+						<div class="phone-notch"></div>
+						<video id="autoPlayVideo" muted>
+							<source src="images/video1.mp4" type="video/mp4">
+							Try again
+						</video>
+					</div>
+				</div>
+
+				<script>
+					document.addEventListener('DOMContentLoaded', function () {
+						const video = document.getElementById('autoPlayVideo');
+
+						// Crear el Intersection Observer
+						const observer = new IntersectionObserver((entries) => {
+							entries.forEach(entry => {
+								if (entry.isIntersecting) {
+									video.muted = false; // Activa el sonido
+									video.play(); // Reproduce el video
+								} else {
+									video.pause(); // Pausa el video si no está en la vista
+									video.currentTime = 0; // Reinicia el video para que se reproduzca desde el inicio
+								}
+							});
+						}, { threshold: 0.5 }); // El video se reproducirá cuando al menos el 50% esté en pantalla
+
+						observer.observe(video);
+					});
+				</script>
+
+				<div class="subscribe-button-container-es">
+					<button class="button-es" id="estimateButton">
+						Get Your Free Estimate
+					</button>
+				</div>
+
+
+				<p>No obligation • Quick response • Tailored to your needs</p>
+				<script>
+					document.getElementById('estimateButton').addEventListener('click', function () {
+						if (window.innerWidth > 768) {
+							// Si es una computadora, abre el pop-up en el centro de la pantalla
+							const width = 600;
+							const height = 400;
+							const left = (window.innerWidth / 2) - (width / 2);
+							const top = (window.innerHeight / 2) - (height / 2);
+							window.open('https://beacons.ai/pqusaconstruction', 'popup', `width=${width},height=${height},top=${top},left=${left}`);
+						} else {
+							// Si es un dispositivo móvil, abre el enlace en otra pestaña o pantalla
+							window.location.href = 'https://beacons.ai/pqusaconstruction';
+						}
+					});
+
+				</script>
 			</div>
 		</div>
-		<iframe src="" width="600px" margin:0 auto; height="400" frameborder="0"
-			webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
 	<!----//End-studio---->
 	<!-----cntact---->
@@ -437,20 +496,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<a href="https://beacons.ai/pqusaconstruction" target="_blank">
 				<img src="images/QRcode.jpg" alt="QR Code" class="contact-image">
 			</a>
-			<div class="subscribe-button-container">
-				<a href="https://beacons.ai/pqusaconstruction" target="_blank" class="subscribe-button">
+			<div class="subscribe-button-container-es">
+				<a href="https://beacons.ai/pqusaconstruction" target="_blank" class="button-es" id="estimateButton">
 					Subscribe
 				</a>
 			</div>
 		</div>
 	</div>
-	
+
 
 	<!----start-bottom-footer---->
 	<div class="bottom-footer">
 		<div class="wrap">
 			<div class="bottom-footer-left">
-				<p><span>&#169; Copyright 2024</span></a></p>
+				<p><span>&#169; Copyright 2024 | P.Q USA CONSTRUCTION</span></a></p>
 			</div>
 			<div class="clear"> </div>
 		</div>

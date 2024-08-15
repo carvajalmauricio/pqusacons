@@ -643,8 +643,8 @@ a.button.scroll:hover {
 }
 /*--- experience --*/
 .experience{
-	padding: 7% 0;
-	background: #2F2F2F;
+	padding: 4% 0;
+	background: #171717;
 }
 .ex-head{
 	text-align:center;
@@ -710,7 +710,7 @@ a.button.scroll:hover {
 .progress-bar-container {
 	margin: 0% auto 0;
 	width: 46%;
-	height: 40px;
+	height: 48px;
 	background-color: #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -720,7 +720,7 @@ a.button.scroll:hover {
 .progress-bar {
  	 width: 0;
 	 height: 100%;
-	 background-color: #F8BC3A;
+	 background-color: #614f33;
 	 border-radius: 10px;
  	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -729,7 +729,7 @@ a.button.scroll:hover {
 .progress-bar1 {
  	 width: 0;
 	 height: 100%;
-	 background-color: #27AE61;
+	 background-color: #124965;
 	 border-radius: 10px;
  	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -738,7 +738,7 @@ a.button.scroll:hover {
 .progress-bar2 {
  	 width: 0;
 	 height: 100%;
-	 background-color: #DB5941;
+	 background-color: #6f7072;
 	 border-radius: 10px;
  	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -747,7 +747,7 @@ a.button.scroll:hover {
 /*---//experience--*/
 /*---studio--*/
 .studio{
-	padding: 7% 0;
+	padding-top: 2%;
 	background: #ffffff;
 	text-align: center;
 }
@@ -768,8 +768,69 @@ a.button.scroll:hover {
 	color: #000000;
 	line-height: 1.5em;
 	text-align:center;
-	margin-bottom: 6%;
+	/* margin-bottom: %; */
 }
+
+.phone-container {
+	width: 300px;
+	height: 600px;
+	background-color: #000;
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 20px auto;
+}
+.phone-screen {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.phone-notch {
+	width: 150px;
+	height: 30px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.subscribe-button-container-es {
+	text-align: center;
+	margin: 20px;
+  }
+  
+  .button-es {
+	background: linear-gradient(90deg, #007BFF, #00C4FF); /* Degradado en tonos azules */
+	color: white;
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+	transition: all 0.3s ease;
+  }
+  
+  .button-es:hover {
+	background: linear-gradient(90deg, #0056b3, #008fbf); /* Efecto hover con un tono más oscuro */
+	box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6);
+  }
+  
+  .button-es:active {
+	transform: scale(0.98); /* Efecto al presionar el botón */
+  }
+  
 
 /*---//studio--*/
 /*---clients--*/
@@ -906,7 +967,6 @@ display:none;
     background-color: #007acc;
 }
 
-
 /*---start-footer---*/
 .bottom-footer{
 	background: #EBEBEA;
@@ -917,7 +977,7 @@ display:none;
 .bottom-footer-left p{
 	font-size: 1em;
 	color: #777;
-	margin-top: 1.5em;
+	margin-top: 1.0em;
 }
 .bottom-footer-left p span{
 	font-size: 1em;
@@ -944,7 +1004,7 @@ display:none;
 	-o-border-radius: 30em;
 }
 .bottom-footer {
-	padding: 7% 0;
+	padding: 1% 0;
 }
 /*---End-footer----*/
 /* topup */
