@@ -27,7 +27,7 @@
     z-index: -1;
     transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
-    pointer-events: none; /* Para asegurarse de que el video no interfiera con la interacción del usuario */
+    pointer-events: none; 
 }
 
 .slider_bg {
@@ -851,6 +851,7 @@
 		background: url(../images/slider-icons1.png) no-repeat -95px -75px;
 	}
 	.da-slider {
+		margin-top: 25%;
 		height:310px;
 	}
 	.da-slide .da-link {
@@ -870,6 +871,7 @@
 		top: 180px;
 		width: 84%;
 	}
+
 }
 @media only screen and (max-width: 480px){
 	.da-dots {
